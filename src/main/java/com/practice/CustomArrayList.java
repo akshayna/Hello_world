@@ -7,6 +7,6 @@ public class CustomArrayList<E> extends ArrayList<E>{
 	@Override
 	protected void finalize() throws Throwable {
 		super.finalize();
-		System.out.println("In finalize");
+		System.out.println("In finalize method");
 	}
 }
